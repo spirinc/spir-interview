@@ -12,7 +12,9 @@
     <blockquote>
       i.g ) input is [6,1,40], combined Input can be '6140', '6401', '1640', '4061', '4016'm so the biggist number is '6401'. output must be '6401'
     </blockquote>
-    <p>Please generate input arrays when you click 'run' button. and get out number.</p>
+    <p>1. Please write a function for generating input arrays when you click 'run' button. 
+    </p>
+    <p>2. Please write a <a href="https://vuejs.org/v2/guide/computed.html">computed Property</a> for getting output number.</p>
     <button @click="run">Run</button>
     <p>inupt: {{input}}</p>
     <p>result: {{result}}</p>
